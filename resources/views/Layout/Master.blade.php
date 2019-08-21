@@ -5,7 +5,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <meta charset=utf8>
-    <title>LOL GET REKT</title>
+    <title>@yield('title')</title>
+    
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -35,18 +36,13 @@
             </form>
         </div>
     </nav>
+    @yield('Home')
     <style type="text/css">
         body {
         background: url('https://source.unsplash.com/twukN12EN7c/1920x1080') no-repeat center center fixed;
-        /*-webkit-background-size: cover;
-        -moz-background-size: cover;
-        background-size: cover;
-        -o-background-size: cover;*/
         }
     </style>
-    <div class = ' Homepage'>
-        @yield('Home')
-    </div>
+    
 </body>
 
 </html>
