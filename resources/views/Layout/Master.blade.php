@@ -44,6 +44,9 @@
         -o-background-size: cover;*/
         }
     </style>
+    <div class = ' Homepage'>
+        @yield('Home')
+    </div>
 </body>
 
 </html>
