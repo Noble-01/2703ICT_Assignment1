@@ -1,6 +1,7 @@
 # 2703ICT_Assignment1
 Individual Assignment
-#Introduction
+---
+**Introduction
 For this assignment you are required to build the foundation for a social media application. You will
 be required to implement the ability for posts to be added to a timeline, posts to be edited and
 deleted, and for comments to be added to posts.
@@ -31,7 +32,8 @@ once no matter how many posts this user has made). Clicking on the user should d
 posts made by that user.
 11. There is a most recent page, which shows only the posts that have been made in the last 7
 days.
-#Technical requirements
+---
+**Technical requirements
 1. This assignment must be implemented using Laravel. Database access should be implemented via raw
 SQL and executed through Laravel’s DB class. You are not to use Laravel's ORM (ORM will be used for
 assignment 2).
